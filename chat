@@ -38,6 +38,11 @@
 		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 		embedded_svc.settings.entryFeature = 'LiveAgent';
 		
+		embedded_svc.snippetSettingsFile.extraPrechatFormDetails = [{
+		  "label":"IsTravel Advisor",
+		  "transcriptFields": ["IsTravel_Advisor__c"]
+		}
+		
 		embedded_svc.init(
 			'https://d530000008gzgeai--partial.my.salesforce.com',
 			'https://partial-ama.cs171.force.com/cmportal',
