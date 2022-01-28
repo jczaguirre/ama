@@ -53,6 +53,12 @@
 				isOfflineSupportEnabled: false
 			}
 		);
+		
+		embedded_svc.settings.extraPrechatFormDetails = [{
+		    "label":"IsTravel Advisor",
+		    "transcriptFields": ["IsTravel_Advisor__c"]
+		}];
+	
 	};
 
 	if (!window.embedded_svc) {
